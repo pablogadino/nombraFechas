@@ -5,25 +5,33 @@ from factory import Factory
 
 class TestFactory(unittest.TestCase):
 
-    def test_creaAyer(self):
+    def test_crea_factory(self):
         f = Factory()
         self.assertIsInstance(f,Factory)
 
-    def test_creaHoy(self):
+    def test_crea_hoy(self):
         f = Factory()
-        f.set_fecha_entrega('1/12/2019')
-        print (f.hace_cuántos_días())
-        print (f.fecha_entrega)
+        f.fecha_comparada='1/12/2019'
         día=f.generar()
-        print (día.apelativo)
+        print (día)
 
-    def test_creaAyer(self):
+    def test_crea_ayer(self):
         f = Factory()
-        f.set_fecha_entrega('30/11/2019')
-        print (f.hace_cuántos_días())
-        print (f.fecha_entrega)
+        f.fecha_comparada='30/11/2019'
         día = f.generar()
-        print (día.apelativo)
+        print (día)
+
+    def test_crea_anteyer(self):
+        f = Factory()
+        f.fecha_comparada = '29/11/2019'
+        día = f.generar()
+        print(día)
+
+    def test_crea_día_antiguo(self):
+        f = Factory()
+        f.fecha_comparada = '2/11/2019'
+        día = f.generar()
+        print(día)
 
 if __name__ == '__main__':
     unittest.main()
