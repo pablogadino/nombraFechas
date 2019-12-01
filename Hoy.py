@@ -7,6 +7,3 @@ from Día import Día
 class Hoy(Día):
 
     apelativo = 'hoy'
-
-
-
