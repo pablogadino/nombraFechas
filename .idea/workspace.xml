@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="537767e7-6fe0-49d3-9566-96ba7798b819" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/nombraFechas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/pablo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fechas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fechas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="537767e7-6fe0-49d3-9566-96ba7798b819" name="Default Changelist" comment="'creada clase Hoy'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Día.py" beforeDir="false" afterPath="$PROJECT_DIR$/Día.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestFactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/factory.py" afterDir="false" />
     </list>
@@ -23,6 +17,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1U73BaYiHRif9KHx1ZENbI60HTv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -56,6 +53,21 @@
       <option name="presentableId" value="Default" />
       <updated>1574693671951</updated>
     </task>
+    <task id="LOCAL-00001" summary="'creada clase Hoy'">
+      <created>1575159545407</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575159545407</updated>
+    </task>
+    <task id="LOCAL-00002" summary="'creada clase Hoy'">
+      <created>1575159565821</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575159565821</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -70,5 +82,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="'creada clase Hoy'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'creada clase Hoy'" />
   </component>
 </project>
