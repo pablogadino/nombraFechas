@@ -3,7 +3,7 @@ from datetime import datetime
 
 class Día:
 
-    apelativo = 'día'
+    apelativo = 'el'
 
     def __init__(self, fecha: datetime):
         self.fecha = fecha
